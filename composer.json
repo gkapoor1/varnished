@@ -6,7 +6,8 @@
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
-        "drupal/purge": "^3.0"
+        "drupal/purge": "^3.0",
+        "drupal/varnish_purge": "^1.10"
     },
     "replace": {
         "drupal/core": "^8.4"
