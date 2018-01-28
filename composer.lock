@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bec46eaaa9fa07a4cbd8c84302f0d275",
+    "content-hash": "baa2e7348bb63c97b1a2303f0bc5234f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -634,6 +634,61 @@
                 "parser"
             ],
             "time": "2014-09-09T13:34:57+00:00"
+        },
+        {
+            "name": "drupal/purge",
+            "version": "3.0.0-beta8",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/purge",
+                "reference": "8.x-3.0-beta8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/purge-8.x-3.0-beta8.zip",
+                "reference": "8.x-3.0-beta8",
+                "shasum": "5b6a53d6adcfa0d4e081edf2563d366fc7205bc4"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-beta8",
+                    "datestamp": "1502719311",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "SqyD",
+                    "homepage": "https://www.drupal.org/user/106525"
+                },
+                {
+                    "name": "djbobbydrake",
+                    "homepage": "https://www.drupal.org/user/336378"
+                },
+                {
+                    "name": "nielsvm",
+                    "homepage": "https://www.drupal.org/user/163285"
+                }
+            ],
+            "description": "Provides a generic external cache invalidation API and queue service.",
+            "homepage": "https://www.drupal.org/project/purge",
+            "support": {
+                "source": "http://cgit.drupalcode.org/purge"
+            }
         },
         {
             "name": "easyrdf/easyrdf",
@@ -2576,20 +2631,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/Mink.git",
-                "reference": "9ea1cebe3dc529ba3861d87c818f045362c40484"
+                "reference": "04ab7af68536ac2c80fd6c08a6fd3620d3409891"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/Mink/zipball/9ea1cebe3dc529ba3861d87c818f045362c40484",
-                "reference": "9ea1cebe3dc529ba3861d87c818f045362c40484",
+                "url": "https://api.github.com/repos/minkphp/Mink/zipball/04ab7af68536ac2c80fd6c08a6fd3620d3409891",
+                "reference": "04ab7af68536ac2c80fd6c08a6fd3620d3409891",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.1",
-                "symfony/css-selector": "~2.1|~3.0"
+                "symfony/css-selector": "^2.7|^3.0|^4.0"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "~2.7|~3.0"
+                "symfony/phpunit-bridge": "^3.3|^4.0"
             },
             "suggest": {
                 "behat/mink-browserkit-driver": "extremely fast headless driver for Symfony\\Kernel-based apps (Sf2, Silex)",
@@ -2626,7 +2681,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2017-02-06T09:59:54+00:00"
+            "time": "2018-01-07T17:25:05+00:00"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -2798,14 +2853,8 @@
             "version": "8.2.12",
             "source": {
                 "type": "git",
-                "url": "https://github.com/klausi/coder.git",
+                "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/klausi/coder/zipball/984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
